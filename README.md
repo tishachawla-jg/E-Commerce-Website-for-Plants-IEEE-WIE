@@ -29,6 +29,9 @@ If time we can connect backend using firebase on payment page
 
 # Tech Stack:
 HTML
+
 CSS
+
 Javascript
+
 Firebase

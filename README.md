@@ -6,7 +6,7 @@ This feature decreases the confusion which one can find by being surrounded by a
 Our website strives to increase the awareness of the users about the importance of flora by integrating the afforestation drives and the initiatives being taken in this field. 
 People will learn how from environmental impact to personal enjoyment, a world without plants would be catastrophic.
 
-Features:
+# Features:
 
 There will be total 8 pages in the working model :
 
@@ -27,7 +27,7 @@ Connection of Login with customers using Firebase
 
 If time we can connect backend using firebase on payment page
 
-Tech Stack:
+# Tech Stack:
 HTML
 CSS
 Javascript

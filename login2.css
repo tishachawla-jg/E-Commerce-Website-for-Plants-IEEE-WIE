@@ -16,7 +16,7 @@ body{
 .photograph{
     color: #5cb874;
     font-style: normal;
-    font-size: 30px;
+    font-size: 31px;
     font-weight: bold;
     padding: 20px;
     float: left;
@@ -37,7 +37,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: darkgreen;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: bolder;
     padding: 20px;
 }
@@ -46,16 +46,16 @@ span{
     font-style: normal;
 }
 .background{
-    background-attachment: fixed;
+    background-attachment: inherit;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .loginbox{
-    width: 320px;
-    height: 440px;
+    width: 300px;
+    height: 425px;
     background: white;
     color: black;
-    top: 60%;
+    top: 58%;
     left: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -87,17 +87,19 @@ h1{
     color: black;
     font-size: 16px;
 }
-.loginbox input[type="submit"]
+.loginbox button
 {
     border: none;
     outline: none;
-    height: 40px;
+    height: 30px;
+    width: 80px;
     background: lightgreen;
     color: black;
-    font-size: 18px;
-    border-radius: 20px;
+    font-size: 15px;
+    border-radius: 35px;
+    transform: translate(100%,-20%);
 }
-.loginbox input[type="submit"]:hover
+.loginbox button:hover
 {
     cursor: pointer;
     background: darkgreen;

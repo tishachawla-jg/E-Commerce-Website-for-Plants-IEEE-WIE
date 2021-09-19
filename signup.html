@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="login2.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
     <script src="form.js"></script>
-    <title>LOGIN PAGE VENDOR</title>
+    <title>SIGNUP PAGE CUSTOMER</title>
 </head>
 <body>
     <nav>
@@ -23,18 +23,16 @@
         </div>
     </nav>
     <div class="loginbox">
-        <h1>LOGIN HERE</h1>
+        <h1>SIGNUP HERE</h1>
         <p>ENTER EMAIL</p>
         <input type="text" placeholder="email" id="email"><br>
         <p>ENTER PASSWORD</p>
         <input type="password" placeholder="password" id="password"><br>
-        <p>ENTER VENDOR ID</p>
-        <input type="text" placeholder="vendor id" id="vendorid"><br>
-        <button onclick="signIn()" id="signIp">Sign In</button>
+        <p>ENTER CUSTOMER ID</p>
+        <input type="text" placeholder="customer id" id="customerid"><br>
+        <button onclick="signUp()" id="signIp">Sign Up</button>
         <br>
-        <a href="signup2.html">Don't have an account?</a>
-        <br>
-        <a href="login.html">Customer's Login</a>
+        <a href="login.html">Have account? Login</a>
     </div>
 </body>
 </html>

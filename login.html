@@ -1,13 +1,20 @@
-<html>
+<!DOCTYPE html>
 <head>
-    <title>LOGIN PAGE CUSTOMER</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+    <script src="form.js"></script>
+    <title>LOGIN PAGE CUSTOMER</title>
+</head>
 <body>
     <nav>
         <div class="photograph">PLANT<span> HUB</span></div>
         <div class="menu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="login.html">Login</a></li>
@@ -15,23 +22,19 @@
             </ul>
         </div>
     </nav>
-
     <div class="loginbox">
         <h1>LOGIN HERE</h1>
-        <form>
-            <p>Username</p>
-            <input type="text" name="" placeholder="Enter Username">
-            <p>Customer ID</p>
-            <input type="text" name="" placeholder="Enter Customer ID">
-            <p>Password</p>
-            <input type="password" name="" placeholder="Enter Password">
-            <input type="submit" name="" value="LOGIN">
-            <a href="signup.html">Don't have an account?</a>
-            <br>
-            <a href="login2.html">Vendor's Login</a>
-        </form>
+        <p>ENTER EMAIL</p>
+        <input type="text" placeholder="email" id="email"><br>
+        <p>ENTER PASSWORD</p>
+        <input type="password" placeholder="password" id="password"><br>
+        <p>ENTER CUSTOMER ID</p>
+        <input type="text" placeholder="customer id" id="customerid"><br>
+        <button onclick="signIn()" id="signIp">Sign In</button>
+        <br>
+        <a href="signup.html">Don't have an account?</a>
+        <br>
+        <a href="login2.html">Vendor's Login</a>
     </div>
 </body>
-</head>
-
 </html>

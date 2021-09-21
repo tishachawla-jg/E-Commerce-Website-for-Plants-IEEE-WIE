@@ -1,3 +1,6 @@
+
+Document Link :  https://docs.google.com/document/d/1ENm1oAgN_aavOf9akzmnFxCKmWWmIDx_nDaeHvCiA8U/edit?usp=sharing
+
 # Idea :
 Most people rejuvenate in the placidity that nature has to offer. They feel calm and exhilarated by having plants in their houses, around their locality and nature in general.
 To ease the burden of travelling far and wide for finding the perfect plant for one’s house, our website incorporates buying and selling options of a vast variety of plants. 

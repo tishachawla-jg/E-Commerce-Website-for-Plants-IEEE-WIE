@@ -6,7 +6,8 @@ This feature decreases the confusion which one can find by being surrounded by a
 Our website strives to increase the awareness of the users about the importance of flora by integrating the afforestation drives and the initiatives being taken in this field. 
 People will learn how from environmental impact to personal enjoyment, a world without plants would be catastrophic.
 
-![image](https://user-images.githubusercontent.com/76087547/134211633-a39c6456-601b-40a5-9b82-38f674f99c20.png)
+![image](https://user-images.githubusercontent.com/76087547/134211915-7b6f4b6d-dce7-4e86-b446-fb58a823cbde.png)
+
 
 
 # Features:
